@@ -33,7 +33,7 @@ num_clusters <- length(unique(clusters2$CLUSTER_ID))
 pal_clusters <- colorFactor(palette = colorRampPalette(brewer.pal(12, "Paired"))(num_clusters), 
                             domain = clusters2$CLUSTER_ID)
 
-heatmap <- rast("Heatmap.tif")
+heatmap <- rast("Heatmap_final.tif")
 heatmap <- project(heatmap, crs(river))
 
 pal_heatmap <- colorNumeric(palette = "plasma", domain = na.omit(values(heatmap)), na.color = "transparent")
