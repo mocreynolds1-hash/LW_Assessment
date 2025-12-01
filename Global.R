@@ -45,7 +45,7 @@ pal_heatmap <- colorNumeric(palette = "plasma", domain = na.omit(values(heatmap)
 
 #pal_slope1 <- colorNumeric(palette = "rocket", domain = na.omit(values(slope1)), na.color = "transparent")
 
-aspect1 <- rast("aspect.tif")
+aspect1 <- rast("aspect copy.tiff")
 aspect1 <- project(aspect1, crs(river))
 aspect1 <- aggregate(aspect1, fact = 3)
 pal_aspect1 <- colorNumeric(palette = "viridis", domain = na.omit(values(aspect1)), na.color = "transparent")
