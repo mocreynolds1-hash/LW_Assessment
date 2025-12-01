@@ -9,6 +9,7 @@ install.packages("terra")
 install.packages("sf")
 install.packages("raster")
 install.packages("ggplot2")
+install.packages("dplyr")
 
 
 
@@ -22,6 +23,7 @@ library(ggiraph)
 library(RColorBrewer)
 library(terra)
 library(leafem)
+library(dplyr)
 
 options(shiny.maxRequestSize = 1000 * 1024^2)
 
