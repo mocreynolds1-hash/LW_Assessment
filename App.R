@@ -4,7 +4,11 @@ install.packages("leaflet")
 install.packages("leafem")
 install.packages("RColorBrewer")
 install.packages("ggiraph")
-
+install.packages("dbscan")
+install.packages("terra")
+install.packages("sf")
+install.packages("raster")
+install.packages("ggplot2")
 
 
 
